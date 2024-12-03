@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.1011.1414                               -->
+<workbook original-version='18.1' source-build='2024.2.4 (20242.24.1011.1414)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (prem_league_09_19)' inline='true' name='federated.1u6l7yt0sk83oo158umr20x8obyc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='prem_league_09_19' name='excel-direct.17vixrr0osh92g17gsrw00rlo8k2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/namb2/OneDrive/Documents/GitHub/BAIS3140_final_project_repo/data/final_data/prem_league_09_19.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.17vixrr0osh92g17gsrw00rlo8k2' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:V3631:no:A1:V3631:0' header='yes' outcome='6'>
+            <column datatype='date' date-parse-format='dd/MM/yy' name='Match Date' ordinal='0' />
+            <column datatype='string' name='Home Team' ordinal='1' />
+            <column datatype='string' name='Away Team' ordinal='2' />
+            <column datatype='integer' name='Full Time Home Team Goals' ordinal='3' />
+            <column datatype='integer' name='Full Time Away Team Goals' ordinal='4' />
+            <column datatype='string' name='Game Result' ordinal='5' />
+            <column datatype='integer' name='Half Time Home Team Goals' ordinal='6' />
+            <column datatype='integer' name='Half Time Away Team Goals' ordinal='7' />
+            <column datatype='string' name='Half Time Result' ordinal='8' />
+            <column datatype='string' name='Match Referee' ordinal='9' />
+            <column datatype='integer' name='Home Team Shots' ordinal='10' />
+            <column datatype='integer' name='Away Team Shots' ordinal='11' />
+            <column datatype='integer' name='Home Team Shots on Goal' ordinal='12' />
+            <column datatype='integer' name='Away Team Shots on Goal' ordinal='13' />
+            <column datatype='integer' name='Home Team Fouls Committed' ordinal='14' />
+            <column datatype='integer' name='Away Team Fouls Committed' ordinal='15' />
+            <column datatype='integer' name='Home Team Corners' ordinal='16' />
+            <column datatype='integer' name='Away Team Corners' ordinal='17' />
+            <column datatype='integer' name='Home Team Yellow Cards' ordinal='18' />
+            <column datatype='integer' name='Away Team Yellow Cards' ordinal='19' />
+            <column datatype='integer' name='Home Team Red Cards' ordinal='20' />
+            <column datatype='integer' name='Away Team Red Cards' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.17vixrr0osh92g17gsrw00rlo8k2' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:V3631:no:A1:V3631:0' header='yes' outcome='6'>
+            <column datatype='date' date-parse-format='dd/MM/yy' name='Match Date' ordinal='0' />
+            <column datatype='string' name='Home Team' ordinal='1' />
+            <column datatype='string' name='Away Team' ordinal='2' />
+            <column datatype='integer' name='Full Time Home Team Goals' ordinal='3' />
+            <column datatype='integer' name='Full Time Away Team Goals' ordinal='4' />
+            <column datatype='string' name='Game Result' ordinal='5' />
+            <column datatype='integer' name='Half Time Home Team Goals' ordinal='6' />
+            <column datatype='integer' name='Half Time Away Team Goals' ordinal='7' />
+            <column datatype='string' name='Half Time Result' ordinal='8' />
+            <column datatype='string' name='Match Referee' ordinal='9' />
+            <column datatype='integer' name='Home Team Shots' ordinal='10' />
+            <column datatype='integer' name='Away Team Shots' ordinal='11' />
+            <column datatype='integer' name='Home Team Shots on Goal' ordinal='12' />
+            <column datatype='integer' name='Away Team Shots on Goal' ordinal='13' />
+            <column datatype='integer' name='Home Team Fouls Committed' ordinal='14' />
+            <column datatype='integer' name='Away Team Fouls Committed' ordinal='15' />
+            <column datatype='integer' name='Home Team Corners' ordinal='16' />
+            <column datatype='integer' name='Away Team Corners' ordinal='17' />
+            <column datatype='integer' name='Home Team Yellow Cards' ordinal='18' />
+            <column datatype='integer' name='Away Team Yellow Cards' ordinal='19' />
+            <column datatype='integer' name='Home Team Red Cards' ordinal='20' />
+            <column datatype='integer' name='Away Team Red Cards' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:V3631:no:A1:V3631:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Match Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Match Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Match Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Home Team]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home Team</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Away Team]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Away Team</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full Time Home Team Goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Full Time Home Team Goals]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Full Time Home Team Goals</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full Time Away Team Goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Full Time Away Team Goals]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Full Time Away Team Goals</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Result</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Game Result]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Game Result</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half Time Home Team Goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Half Time Home Team Goals]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Half Time Home Team Goals</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half Time Away Team Goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Half Time Away Team Goals]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Half Time Away Team Goals</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half Time Result</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Half Time Result]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Half Time Result</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Match Referee</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Match Referee]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Match Referee</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Team Shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Home Team Shots]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home Team Shots</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Team Shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Away Team Shots]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Away Team Shots</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Team Shots on Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Home Team Shots on Goal]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home Team Shots on Goal</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Team Shots on Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Away Team Shots on Goal]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Away Team Shots on Goal</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Team Fouls Committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Home Team Fouls Committed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home Team Fouls Committed</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Team Fouls Committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Away Team Fouls Committed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Away Team Fouls Committed</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Team Corners</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Home Team Corners]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home Team Corners</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Team Corners</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Away Team Corners]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Away Team Corners</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Team Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Home Team Yellow Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home Team Yellow Cards</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Team Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Away Team Yellow Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Away Team Yellow Cards</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Team Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Home Team Red Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home Team Red Cards</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Team Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Away Team Red Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Away Team Red Cards</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Wins' datatype='integer' name='[Calculation_929711869342105600]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF[Game Result]==&apos;W&apos;THEN 1 END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_BCEA36CCE3F84B6C9F7F28CDD80D0223'>
+            <properties context=''>
+              <relation connection='excel-direct.17vixrr0osh92g17gsrw00rlo8k2' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:V3631:no:A1:V3631:0' header='yes' outcome='6'>
+                  <column datatype='date' date-parse-format='dd/MM/yy' name='Match Date' ordinal='0' />
+                  <column datatype='string' name='Home Team' ordinal='1' />
+                  <column datatype='string' name='Away Team' ordinal='2' />
+                  <column datatype='integer' name='Full Time Home Team Goals' ordinal='3' />
+                  <column datatype='integer' name='Full Time Away Team Goals' ordinal='4' />
+                  <column datatype='string' name='Game Result' ordinal='5' />
+                  <column datatype='integer' name='Half Time Home Team Goals' ordinal='6' />
+                  <column datatype='integer' name='Half Time Away Team Goals' ordinal='7' />
+                  <column datatype='string' name='Half Time Result' ordinal='8' />
+                  <column datatype='string' name='Match Referee' ordinal='9' />
+                  <column datatype='integer' name='Home Team Shots' ordinal='10' />
+                  <column datatype='integer' name='Away Team Shots' ordinal='11' />
+                  <column datatype='integer' name='Home Team Shots on Goal' ordinal='12' />
+                  <column datatype='integer' name='Away Team Shots on Goal' ordinal='13' />
+                  <column datatype='integer' name='Home Team Fouls Committed' ordinal='14' />
+                  <column datatype='integer' name='Away Team Fouls Committed' ordinal='15' />
+                  <column datatype='integer' name='Home Team Corners' ordinal='16' />
+                  <column datatype='integer' name='Away Team Corners' ordinal='17' />
+                  <column datatype='integer' name='Home Team Yellow Cards' ordinal='18' />
+                  <column datatype='integer' name='Away Team Yellow Cards' ordinal='19' />
+                  <column datatype='integer' name='Home Team Red Cards' ordinal='20' />
+                  <column datatype='integer' name='Away Team Red Cards' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_09_19)' name='federated.1u6l7yt0sk83oo158umr20x8obyc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u6l7yt0sk83oo158umr20x8obyc'>
+            <column caption='Total Wins' datatype='integer' name='[Calculation_929711869342105600]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF[Game Result]==&apos;W&apos;THEN 1 END' />
+            </column>
+            <column datatype='string' name='[Game Result]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Home Team]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column-instance column='[Home Team]' derivation='None' name='[none:Home Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_929711869342105600]' derivation='Sum' name='[sum:Calculation_929711869342105600:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u6l7yt0sk83oo158umr20x8obyc].[none:Home Team:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1u6l7yt0sk83oo158umr20x8obyc].[sum:Calculation_929711869342105600:qk]</rows>
+        <cols>[federated.1u6l7yt0sk83oo158umr20x8obyc].[yr:Match Date:ok]</cols>
+      </table>
+      <simple-id uuid='{4CC5301D-90B9-4EAC-955C-B88F82375545}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1u6l7yt0sk83oo158umr20x8obyc].[none:Home Team:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0EBDE5B4-2BF1-40A1-9C2C-FAF2AE455BB7}' />
+    </window>
+  </windows>
+</workbook>
