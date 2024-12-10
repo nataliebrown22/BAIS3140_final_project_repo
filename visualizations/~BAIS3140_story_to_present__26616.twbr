@@ -1,0 +1,2792 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.1011.1414                               -->
+<workbook original-version='18.1' source-build='2024.2.4 (20242.24.1011.1414)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <SavingAnalyticObjects />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (prem_league_cleaned) (2)' inline='true' name='federated.1t05nwg0c6drj616ual9e0hjxgir' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='prem_league_cleaned' name='excel-direct.0lxarhc0ckfgg80ztwkpl0ukjsat'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/final_data/prem_league_cleaned.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0lxarhc0ckfgg80ztwkpl0ukjsat' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:V7241:no:A1:V7241:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Match Date' ordinal='1' />
+            <column datatype='string' name='Team' ordinal='2' />
+            <column datatype='string' name='Game Result' ordinal='3' />
+            <column datatype='string' name='Match Referee' ordinal='4' />
+            <column datatype='string' name='Home/Away' ordinal='5' />
+            <column datatype='integer' name='Total Goals For' ordinal='6' />
+            <column datatype='integer' name='Total Goals Against' ordinal='7' />
+            <column datatype='integer' name='Half Time Goals For' ordinal='8' />
+            <column datatype='integer' name='Half Time Goals Against' ordinal='9' />
+            <column datatype='integer' name='Shots For' ordinal='10' />
+            <column datatype='integer' name='Shots Against' ordinal='11' />
+            <column datatype='integer' name='Shots For On Goal' ordinal='12' />
+            <column datatype='integer' name='Shots Against On Goal' ordinal='13' />
+            <column datatype='integer' name='Corners For' ordinal='14' />
+            <column datatype='integer' name='Corners Against' ordinal='15' />
+            <column datatype='integer' name='Yellow Cards' ordinal='16' />
+            <column datatype='integer' name='Oppenent Yellow Cards' ordinal='17' />
+            <column datatype='integer' name='Fouls Committed' ordinal='18' />
+            <column datatype='integer' name='Oppenent Fouls Committed' ordinal='19' />
+            <column datatype='integer' name='Red Cards' ordinal='20' />
+            <column datatype='integer' name='Oppenent Red Cards' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0lxarhc0ckfgg80ztwkpl0ukjsat' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:V7241:no:A1:V7241:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Match Date' ordinal='1' />
+            <column datatype='string' name='Team' ordinal='2' />
+            <column datatype='string' name='Game Result' ordinal='3' />
+            <column datatype='string' name='Match Referee' ordinal='4' />
+            <column datatype='string' name='Home/Away' ordinal='5' />
+            <column datatype='integer' name='Total Goals For' ordinal='6' />
+            <column datatype='integer' name='Total Goals Against' ordinal='7' />
+            <column datatype='integer' name='Half Time Goals For' ordinal='8' />
+            <column datatype='integer' name='Half Time Goals Against' ordinal='9' />
+            <column datatype='integer' name='Shots For' ordinal='10' />
+            <column datatype='integer' name='Shots Against' ordinal='11' />
+            <column datatype='integer' name='Shots For On Goal' ordinal='12' />
+            <column datatype='integer' name='Shots Against On Goal' ordinal='13' />
+            <column datatype='integer' name='Corners For' ordinal='14' />
+            <column datatype='integer' name='Corners Against' ordinal='15' />
+            <column datatype='integer' name='Yellow Cards' ordinal='16' />
+            <column datatype='integer' name='Oppenent Yellow Cards' ordinal='17' />
+            <column datatype='integer' name='Fouls Committed' ordinal='18' />
+            <column datatype='integer' name='Oppenent Fouls Committed' ordinal='19' />
+            <column datatype='integer' name='Red Cards' ordinal='20' />
+            <column datatype='integer' name='Oppenent Red Cards' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:V7241:no:A1:V7241:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Match Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Match Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Match Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Result</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Game Result]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Game Result</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Match Referee</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Match Referee]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Match Referee</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home/Away</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Home/Away]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home/Away</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Goals For</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Goals For]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Goals For</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Goals Against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Goals Against]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Goals Against</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half Time Goals For</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Half Time Goals For]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Half Time Goals For</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half Time Goals Against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Half Time Goals Against]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Half Time Goals Against</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots For</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots For]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shots For</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots Against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots Against]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shots Against</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots For On Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots For On Goal]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shots For On Goal</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots Against On Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots Against On Goal]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shots Against On Goal</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Corners For</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Corners For]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Corners For</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Corners Against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Corners Against]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Corners Against</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yellow Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Yellow Cards</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oppenent Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oppenent Yellow Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Oppenent Yellow Cards</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls Committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls Committed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fouls Committed</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oppenent Fouls Committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oppenent Fouls Committed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Oppenent Fouls Committed</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Red Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Red Cards</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oppenent Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oppenent Red Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Oppenent Red Cards</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B2F7D6918AA446118FA0772487320D23]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Wins' datatype='integer' name='[Calculation_2001005630761742343]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Game Result] == &apos;Win&apos; then 1 else 0 END' />
+      </column>
+      <column caption='Losses' datatype='integer' name='[Calculation_2001005630762418184]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Game Result] == &apos;Loss&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Win %' datatype='real' name='[Calculation_2001005630762709002]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_2001005630761742343])/(SUM([Calculation_2001005630761742343])+SUM([Draws (copy)_2001005630762561545])+SUM([Calculation_2001005630762418184]))' />
+      </column>
+      <column caption='Draws' datatype='integer' name='[Draws (copy)_2001005630762561545]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Game Result] == &apos;Draw&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column aggregation='Sum' caption='ID' datatype='integer' name='[F1]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Fouls Committed]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+      <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Oppenent Fouls Committed]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Team (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Team]' default='&quot;Competition&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;Arsenal&quot;'>
+            <value>&quot;Arsenal&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Total Goals Against]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total Goals For]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_B2F7D6918AA446118FA0772487320D23]' role='measure' type='quantitative' />
+      <column-instance column='[Home/Away]' derivation='Attribute' name='[attr:Home/Away:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Fouls Committed]' derivation='Sum' name='[sum:Fouls Committed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Oppenent Fouls Committed]' derivation='Sum' name='[sum:Oppenent Fouls Committed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Goals Against]' derivation='Sum' name='[sum:Total Goals Against:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Goals For]' derivation='Sum' name='[sum:Total Goals For:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Home/Away)' hidden='true' name='[Action (Home/Away)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Home/Away]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (YEAR(Match Date),Team (group))' hidden='true' name='[Action (YEAR(Match Date),Team (group))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[yr:Match Date:ok]' />
+          <groupfilter function='level-members' level='[Team (group)]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Home/Away:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Away&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Home&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Team (group)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Arsenal&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>&quot;Competition&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{d76a682a-0c20-4a13-9295-f6652b9cd743}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.1t05nwg0c6drj616ual9e0hjxgir].[attr:Home/Away:nk]' />
+            <field name='[federated.1t05nwg0c6drj616ual9e0hjxgir].[sum:Total Goals Against:qk]' />
+            <field name='[federated.1t05nwg0c6drj616ual9e0hjxgir].[sum:Total Goals For:qk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>0</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{f964b445-ff5a-46d1-b408-58f1f31b46f0}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.1t05nwg0c6drj616ual9e0hjxgir].[attr:Home/Away:nk]' />
+            <field name='[federated.1t05nwg0c6drj616ual9e0hjxgir].[sum:Fouls Committed:qk]' />
+            <field name='[federated.1t05nwg0c6drj616ual9e0hjxgir].[sum:Oppenent Fouls Committed:qk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>0</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_B2F7D6918AA446118FA0772487320D23'>
+            <properties context=''>
+              <relation connection='excel-direct.0lxarhc0ckfgg80ztwkpl0ukjsat' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:V7241:no:A1:V7241:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='date' name='Match Date' ordinal='1' />
+                  <column datatype='string' name='Team' ordinal='2' />
+                  <column datatype='string' name='Game Result' ordinal='3' />
+                  <column datatype='string' name='Match Referee' ordinal='4' />
+                  <column datatype='string' name='Home/Away' ordinal='5' />
+                  <column datatype='integer' name='Total Goals For' ordinal='6' />
+                  <column datatype='integer' name='Total Goals Against' ordinal='7' />
+                  <column datatype='integer' name='Half Time Goals For' ordinal='8' />
+                  <column datatype='integer' name='Half Time Goals Against' ordinal='9' />
+                  <column datatype='integer' name='Shots For' ordinal='10' />
+                  <column datatype='integer' name='Shots Against' ordinal='11' />
+                  <column datatype='integer' name='Shots For On Goal' ordinal='12' />
+                  <column datatype='integer' name='Shots Against On Goal' ordinal='13' />
+                  <column datatype='integer' name='Corners For' ordinal='14' />
+                  <column datatype='integer' name='Corners Against' ordinal='15' />
+                  <column datatype='integer' name='Yellow Cards' ordinal='16' />
+                  <column datatype='integer' name='Oppenent Yellow Cards' ordinal='17' />
+                  <column datatype='integer' name='Fouls Committed' ordinal='18' />
+                  <column datatype='integer' name='Oppenent Fouls Committed' ordinal='19' />
+                  <column datatype='integer' name='Red Cards' ordinal='20' />
+                  <column datatype='integer' name='Oppenent Red Cards' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (prem_league_cleaned)' inline='true' name='federated.15dioby1j04b311b39aaa0oyitz4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='prem_league_cleaned' name='excel-direct.0x27g9j18a2j4f1bgl25p14e563k'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/final_data 1/prem_league_cleaned.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0x27g9j18a2j4f1bgl25p14e563k' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:W7241:no:A1:W7241:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Match Date' ordinal='1' />
+            <column datatype='string' name='Team' ordinal='2' />
+            <column datatype='string' name='Opponent' ordinal='3' />
+            <column datatype='string' name='Game Result' ordinal='4' />
+            <column datatype='string' name='Match Referee' ordinal='5' />
+            <column datatype='string' name='Home/Away' ordinal='6' />
+            <column datatype='integer' name='Total Goals For' ordinal='7' />
+            <column datatype='integer' name='Total Goals Against' ordinal='8' />
+            <column datatype='integer' name='Half Time Goals For' ordinal='9' />
+            <column datatype='integer' name='Half Time Goals Against' ordinal='10' />
+            <column datatype='integer' name='Shots For' ordinal='11' />
+            <column datatype='integer' name='Shots Against' ordinal='12' />
+            <column datatype='integer' name='Shots For On Goal' ordinal='13' />
+            <column datatype='integer' name='Shots Against On Goal' ordinal='14' />
+            <column datatype='integer' name='Corners For' ordinal='15' />
+            <column datatype='integer' name='Corners Against' ordinal='16' />
+            <column datatype='integer' name='Yellow Cards' ordinal='17' />
+            <column datatype='integer' name='Oppenent Yellow Cards' ordinal='18' />
+            <column datatype='integer' name='Fouls Committed' ordinal='19' />
+            <column datatype='integer' name='Oppenent Fouls Committed' ordinal='20' />
+            <column datatype='integer' name='Red Cards' ordinal='21' />
+            <column datatype='integer' name='Oppenent Red Cards' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0x27g9j18a2j4f1bgl25p14e563k' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:W7241:no:A1:W7241:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Match Date' ordinal='1' />
+            <column datatype='string' name='Team' ordinal='2' />
+            <column datatype='string' name='Opponent' ordinal='3' />
+            <column datatype='string' name='Game Result' ordinal='4' />
+            <column datatype='string' name='Match Referee' ordinal='5' />
+            <column datatype='string' name='Home/Away' ordinal='6' />
+            <column datatype='integer' name='Total Goals For' ordinal='7' />
+            <column datatype='integer' name='Total Goals Against' ordinal='8' />
+            <column datatype='integer' name='Half Time Goals For' ordinal='9' />
+            <column datatype='integer' name='Half Time Goals Against' ordinal='10' />
+            <column datatype='integer' name='Shots For' ordinal='11' />
+            <column datatype='integer' name='Shots Against' ordinal='12' />
+            <column datatype='integer' name='Shots For On Goal' ordinal='13' />
+            <column datatype='integer' name='Shots Against On Goal' ordinal='14' />
+            <column datatype='integer' name='Corners For' ordinal='15' />
+            <column datatype='integer' name='Corners Against' ordinal='16' />
+            <column datatype='integer' name='Yellow Cards' ordinal='17' />
+            <column datatype='integer' name='Oppenent Yellow Cards' ordinal='18' />
+            <column datatype='integer' name='Fouls Committed' ordinal='19' />
+            <column datatype='integer' name='Oppenent Fouls Committed' ordinal='20' />
+            <column datatype='integer' name='Red Cards' ordinal='21' />
+            <column datatype='integer' name='Oppenent Red Cards' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:W7241:no:A1:W7241:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Match Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Match Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Match Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Opponent]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Opponent</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Result</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Game Result]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Game Result</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Match Referee</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Match Referee]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Match Referee</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home/Away</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Home/Away]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Home/Away</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Goals For</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Goals For]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Goals For</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Goals Against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Goals Against]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Goals Against</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half Time Goals For</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Half Time Goals For]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Half Time Goals For</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half Time Goals Against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Half Time Goals Against]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Half Time Goals Against</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots For</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots For]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shots For</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots Against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots Against]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shots Against</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots For On Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots For On Goal]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shots For On Goal</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots Against On Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots Against On Goal]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shots Against On Goal</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Corners For</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Corners For]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Corners For</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Corners Against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Corners Against]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Corners Against</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yellow Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Yellow Cards</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oppenent Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oppenent Yellow Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Oppenent Yellow Cards</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls Committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls Committed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fouls Committed</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oppenent Fouls Committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oppenent Fouls Committed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Oppenent Fouls Committed</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Red Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Red Cards</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oppenent Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oppenent Red Cards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Oppenent Red Cards</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_22EA63C546164F2390D33C0AFB76F834]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Wins' datatype='integer' name='[Calculation_1872934518847193089]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Game Result] == &apos;Win&apos; then 1 else 0 END' />
+      </column>
+      <column caption='Draws' datatype='integer' name='[Calculation_1872934518847291394]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Game Result] == &apos;Draw&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Losses' datatype='integer' name='[Calculation_1872934518847389699]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Game Result] == &apos;Loss&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='win %' datatype='real' name='[Calculation_1872934518847488004]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1872934518847193089])/(SUM([Calculation_1872934518847193089])+SUM([Calculation_1872934518847291394])+SUM([Calculation_1872934518847389699]))' />
+      </column>
+      <column aggregation='Sum' caption='ID' datatype='integer' name='[F1]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+      <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+      <column caption='Opponent Fouls Committed' datatype='integer' name='[Oppenent Fouls Committed]' role='measure' type='quantitative' />
+      <column caption='Opponent Red Cards (copy)' datatype='integer' name='[Oppenent Red Cards (copy)_1872934518866853893]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Oppenent Red Cards]' />
+      </column>
+      <column caption='Opponent Red Cards' datatype='integer' name='[Oppenent Red Cards]' role='measure' type='quantitative' />
+      <column caption='Opponent Yellow Cards' datatype='integer' name='[Oppenent Yellow Cards]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Team Groups Only all years]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Team]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;Arsenal&quot;'>
+            <value>&quot;Arsenal&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;not 2009-2018&quot;'>
+            <value>&quot;Aston Villa&quot;</value>
+            <value>&quot;Birmingham&quot;</value>
+            <value>&quot;Blackburn&quot;</value>
+            <value>&quot;Blackpool&quot;</value>
+            <value>&quot;Bolton&quot;</value>
+            <value>&quot;Bournemouth&quot;</value>
+            <value>&quot;Brighton&quot;</value>
+            <value>&quot;Burnley&quot;</value>
+            <value>&quot;Cardiff&quot;</value>
+            <value>&quot;Crystal Palace&quot;</value>
+            <value>&quot;Fulham&quot;</value>
+            <value>&quot;Huddersfield&quot;</value>
+            <value>&quot;Hull&quot;</value>
+            <value>&quot;Leicester&quot;</value>
+            <value>&quot;Middlesbrough&quot;</value>
+            <value>&quot;Newcastle&quot;</value>
+            <value>&quot;Norwich&quot;</value>
+            <value>&quot;Portsmouth&quot;</value>
+            <value>&quot;QPR&quot;</value>
+            <value>&quot;Reading&quot;</value>
+            <value>&quot;Southampton&quot;</value>
+            <value>&quot;Sunderland&quot;</value>
+            <value>&quot;Swansea&quot;</value>
+            <value>&quot;Watford&quot;</value>
+            <value>&quot;West Brom&quot;</value>
+            <value>&quot;Wigan&quot;</value>
+            <value>&quot;Wolves&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_22EA63C546164F2390D33C0AFB76F834]' role='measure' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Home/Away,YEAR(Match Date))' hidden='true' name='[Action (Home/Away,YEAR(Match Date))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Home/Away]' />
+          <groupfilter function='level-members' level='[yr:Match Date:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (YEAR(Match Date),Team Groups Only all years)' hidden='true' name='[Action (YEAR(Match Date),Team Groups Only all years)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[yr:Match Date:ok]' />
+          <groupfilter function='level-members' level='[Team Groups Only all years]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Home/Away:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Away&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Home&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Team Groups Only all years]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Arsenal&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;not 2009-2018&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_22EA63C546164F2390D33C0AFB76F834'>
+            <properties context=''>
+              <relation connection='excel-direct.0x27g9j18a2j4f1bgl25p14e563k' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:W7241:no:A1:W7241:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='date' name='Match Date' ordinal='1' />
+                  <column datatype='string' name='Team' ordinal='2' />
+                  <column datatype='string' name='Opponent' ordinal='3' />
+                  <column datatype='string' name='Game Result' ordinal='4' />
+                  <column datatype='string' name='Match Referee' ordinal='5' />
+                  <column datatype='string' name='Home/Away' ordinal='6' />
+                  <column datatype='integer' name='Total Goals For' ordinal='7' />
+                  <column datatype='integer' name='Total Goals Against' ordinal='8' />
+                  <column datatype='integer' name='Half Time Goals For' ordinal='9' />
+                  <column datatype='integer' name='Half Time Goals Against' ordinal='10' />
+                  <column datatype='integer' name='Shots For' ordinal='11' />
+                  <column datatype='integer' name='Shots Against' ordinal='12' />
+                  <column datatype='integer' name='Shots For On Goal' ordinal='13' />
+                  <column datatype='integer' name='Shots Against On Goal' ordinal='14' />
+                  <column datatype='integer' name='Corners For' ordinal='15' />
+                  <column datatype='integer' name='Corners Against' ordinal='16' />
+                  <column datatype='integer' name='Yellow Cards' ordinal='17' />
+                  <column datatype='integer' name='Oppenent Yellow Cards' ordinal='18' />
+                  <column datatype='integer' name='Fouls Committed' ordinal='19' />
+                  <column datatype='integer' name='Oppenent Fouls Committed' ordinal='20' />
+                  <column datatype='integer' name='Red Cards' ordinal='21' />
+                  <column datatype='integer' name='Oppenent Red Cards' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter1' name='[Action1_454139F3E6654B0DA47E0AE36802E551]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='wins home vs away' type='sheet' worksheet='win % over time' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='win % over time' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='wins home vs away' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='avg goals against'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>decrease in defense effectiveness has lead to an increase in goals conceded</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned) (2)' name='federated.1t05nwg0c6drj616ual9e0hjxgir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t05nwg0c6drj616ual9e0hjxgir'>
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Goals Against]' role='measure' type='quantitative' />
+            <column-instance column='[Total Goals Against]' derivation='Avg' name='[avg:Total Goals Against:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Goals Against]' derivation='Avg' forecast-column-base='[avg:Total Goals Against:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Total Goals Against:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]'>
+            <groupfilter function='level-members' level='[none:Home/Away:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Team:nk]'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Arsenal&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1t05nwg0c6drj616ual9e0hjxgir].[yr:Match Date:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:Match Date:ok]' />
+              <groupfilter function='member' level='[yr:Match Date:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1t05nwg0c6drj616ual9e0hjxgir].[yr:Match Date:ok]</column>
+            <column>[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]</column>
+            <column>[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Team:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1t05nwg0c6drj616ual9e0hjxgir].[fVal:avg:Total Goals Against:qk]</rows>
+        <cols>[federated.1t05nwg0c6drj616ual9e0hjxgir].[yr:Match Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='0' model-type='auto-season' range-periods='Year-Trunc' range-size='5' range-type='next' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{5D91F0AD-FAD8-4FE7-9798-6492E1F9617E}' />
+    </worksheet>
+    <worksheet name='avg goals against (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>decrease in defense effectiveness has lead to an increase in goals conceded</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned) (2)' name='federated.1t05nwg0c6drj616ual9e0hjxgir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t05nwg0c6drj616ual9e0hjxgir'>
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Goals Against]' role='measure' type='quantitative' />
+            <column-instance column='[Total Goals Against]' derivation='Avg' name='[avg:Total Goals Against:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Goals Against]' derivation='Avg' forecast-column-base='[avg:Total Goals Against:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Total Goals Against:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]'>
+            <groupfilter function='level-members' level='[none:Home/Away:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Team:nk]'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Arsenal&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1t05nwg0c6drj616ual9e0hjxgir].[yr:Match Date:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:Match Date:ok]' />
+              <groupfilter function='member' level='[yr:Match Date:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1t05nwg0c6drj616ual9e0hjxgir].[yr:Match Date:ok]</column>
+            <column>[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]</column>
+            <column>[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Team:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1t05nwg0c6drj616ual9e0hjxgir].[fVal:avg:Total Goals Against:qk]</rows>
+        <cols>[federated.1t05nwg0c6drj616ual9e0hjxgir].[yr:Match Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='0' model-type='auto-season' range-periods='Year-Trunc' range-size='5' range-type='next' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{6993E046-8D36-43A7-A4A3-17EE424D2CAC}' />
+    </worksheet>
+    <worksheet name='avg red cards'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Red Cards]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team Groups Only all years]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Team]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='true' value='&quot;Arsenal&quot;'>
+                  <value>&quot;Arsenal&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;not 2009-2018&quot;'>
+                  <value>&quot;Aston Villa&quot;</value>
+                  <value>&quot;Birmingham&quot;</value>
+                  <value>&quot;Blackburn&quot;</value>
+                  <value>&quot;Blackpool&quot;</value>
+                  <value>&quot;Bolton&quot;</value>
+                  <value>&quot;Bournemouth&quot;</value>
+                  <value>&quot;Brighton&quot;</value>
+                  <value>&quot;Burnley&quot;</value>
+                  <value>&quot;Cardiff&quot;</value>
+                  <value>&quot;Crystal Palace&quot;</value>
+                  <value>&quot;Fulham&quot;</value>
+                  <value>&quot;Huddersfield&quot;</value>
+                  <value>&quot;Hull&quot;</value>
+                  <value>&quot;Leicester&quot;</value>
+                  <value>&quot;Middlesbrough&quot;</value>
+                  <value>&quot;Newcastle&quot;</value>
+                  <value>&quot;Norwich&quot;</value>
+                  <value>&quot;Portsmouth&quot;</value>
+                  <value>&quot;QPR&quot;</value>
+                  <value>&quot;Reading&quot;</value>
+                  <value>&quot;Southampton&quot;</value>
+                  <value>&quot;Sunderland&quot;</value>
+                  <value>&quot;Swansea&quot;</value>
+                  <value>&quot;Watford&quot;</value>
+                  <value>&quot;West Brom&quot;</value>
+                  <value>&quot;Wigan&quot;</value>
+                  <value>&quot;Wolves&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[Red Cards]' derivation='Avg' name='[avg:Red Cards:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Team Groups Only all years]' />
+              <groupfilter function='member' level='[Team Groups Only all years]' member='&quot;not 2009-2018&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]'>
+            <groupfilter function='level-members' level='[none:Home/Away:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[avg:Red Cards:qk]</cols>
+      </table>
+      <simple-id uuid='{987AE97F-F15A-4331-8AD0-5CE9A36ED171}' />
+    </worksheet>
+    <worksheet name='fouls committed'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column datatype='integer' name='[Fouls Committed]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Team Groups Only all years]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Team]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='true' value='&quot;Arsenal&quot;'>
+                  <value>&quot;Arsenal&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;not 2009-2018&quot;'>
+                  <value>&quot;Aston Villa&quot;</value>
+                  <value>&quot;Birmingham&quot;</value>
+                  <value>&quot;Blackburn&quot;</value>
+                  <value>&quot;Blackpool&quot;</value>
+                  <value>&quot;Bolton&quot;</value>
+                  <value>&quot;Bournemouth&quot;</value>
+                  <value>&quot;Brighton&quot;</value>
+                  <value>&quot;Burnley&quot;</value>
+                  <value>&quot;Cardiff&quot;</value>
+                  <value>&quot;Crystal Palace&quot;</value>
+                  <value>&quot;Fulham&quot;</value>
+                  <value>&quot;Huddersfield&quot;</value>
+                  <value>&quot;Hull&quot;</value>
+                  <value>&quot;Leicester&quot;</value>
+                  <value>&quot;Middlesbrough&quot;</value>
+                  <value>&quot;Newcastle&quot;</value>
+                  <value>&quot;Norwich&quot;</value>
+                  <value>&quot;Portsmouth&quot;</value>
+                  <value>&quot;QPR&quot;</value>
+                  <value>&quot;Reading&quot;</value>
+                  <value>&quot;Southampton&quot;</value>
+                  <value>&quot;Sunderland&quot;</value>
+                  <value>&quot;Swansea&quot;</value>
+                  <value>&quot;Watford&quot;</value>
+                  <value>&quot;West Brom&quot;</value>
+                  <value>&quot;Wigan&quot;</value>
+                  <value>&quot;Wolves&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[Fouls Committed]' derivation='Avg' name='[avg:Fouls Committed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]' context='true'>
+            <groupfilter function='member' level='[Team Groups Only all years]' member='&quot;Arsenal&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[avg:Fouls Committed:qk]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='false' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-periods='Year-Trunc' range-size='5' range-type='next' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{04CB2D80-804E-48B5-A75A-7E097EE2FBA3}' />
+    </worksheet>
+    <worksheet name='fouls scatter plot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column aggregation='Sum' caption='ID' datatype='integer' name='[F1]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Fouls Committed]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column caption='Opponent Fouls Committed' datatype='integer' name='[Oppenent Fouls Committed]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team Groups Only all years]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Team]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='true' value='&quot;Arsenal&quot;'>
+                  <value>&quot;Arsenal&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;not 2009-2018&quot;'>
+                  <value>&quot;Aston Villa&quot;</value>
+                  <value>&quot;Birmingham&quot;</value>
+                  <value>&quot;Blackburn&quot;</value>
+                  <value>&quot;Blackpool&quot;</value>
+                  <value>&quot;Bolton&quot;</value>
+                  <value>&quot;Bournemouth&quot;</value>
+                  <value>&quot;Brighton&quot;</value>
+                  <value>&quot;Burnley&quot;</value>
+                  <value>&quot;Cardiff&quot;</value>
+                  <value>&quot;Crystal Palace&quot;</value>
+                  <value>&quot;Fulham&quot;</value>
+                  <value>&quot;Huddersfield&quot;</value>
+                  <value>&quot;Hull&quot;</value>
+                  <value>&quot;Leicester&quot;</value>
+                  <value>&quot;Middlesbrough&quot;</value>
+                  <value>&quot;Newcastle&quot;</value>
+                  <value>&quot;Norwich&quot;</value>
+                  <value>&quot;Portsmouth&quot;</value>
+                  <value>&quot;QPR&quot;</value>
+                  <value>&quot;Reading&quot;</value>
+                  <value>&quot;Southampton&quot;</value>
+                  <value>&quot;Sunderland&quot;</value>
+                  <value>&quot;Swansea&quot;</value>
+                  <value>&quot;Watford&quot;</value>
+                  <value>&quot;West Brom&quot;</value>
+                  <value>&quot;Wigan&quot;</value>
+                  <value>&quot;Wolves&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Fouls Committed]' derivation='Sum' name='[sum:Fouls Committed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Oppenent Fouls Committed]' derivation='Sum' name='[sum:Oppenent Fouls Committed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]' context='true'>
+            <groupfilter function='level-members' level='[Team Groups Only all years]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]' context='true'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Arsenal&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]'>
+            <groupfilter function='level-members' level='[yr:Match Date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' />
+              <lod column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:F1:ok]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[sum:Fouls Committed:qk]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[sum:Oppenent Fouls Committed:qk]</cols>
+      </table>
+      <simple-id uuid='{594107F4-7E8E-4BAF-BFDA-69F68E7E2F8E}' />
+    </worksheet>
+    <worksheet name='red cards'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Red Cards]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[Red Cards]' derivation='Avg' name='[avg:Red Cards:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Home/Away:nk]' member='&quot;Away&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Arsenal&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[avg:Red Cards:qk]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='false' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-periods='Year-Trunc' range-size='5' range-type='next' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{DC07B51B-7157-40BA-8020-74096D809F44}' />
+    </worksheet>
+    <worksheet name='shots against'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#4e79a7'>Arsenal</run>
+            <run bold='true'>Æ </run>
+            <run>Defense has been more Effective than the </run>
+            <run bold='true' fontcolor='#898989'>Competition</run>
+            <run> at Preventing Shots
+However has fallen behind in recent years</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Shots Against]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[Shots Against]' derivation='Avg' name='[avg:Shots Against:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Shots Against]' derivation='Avg' forecast-column-base='[avg:Shots Against:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Shots Against:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Arsenal&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[fVal:avg:Shots Against:qk]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='0' model-type='auto-season' range-periods='Year-Trunc' range-size='5' range-type='next' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{53392BFB-1595-4758-80F2-12A7A05ACDAE}' />
+    </worksheet>
+    <worksheet name='win % competition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#4e79a7'>Arsenal</run>
+            <run bold='true'>Æ </run>
+            <run>has a higher win percentage than competition</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column caption='Wins' datatype='integer' name='[Calculation_1872934518847193089]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Win&apos; then 1 else 0 END' />
+            </column>
+            <column caption='Draws' datatype='integer' name='[Calculation_1872934518847291394]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Draw&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Losses' datatype='integer' name='[Calculation_1872934518847389699]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Loss&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='win %' datatype='real' name='[Calculation_1872934518847488004]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1872934518847193089])/(SUM([Calculation_1872934518847193089])+SUM([Calculation_1872934518847291394])+SUM([Calculation_1872934518847389699]))' />
+            </column>
+            <column datatype='string' name='[Game Result]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Team Groups Only all years]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Team]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='true' value='&quot;Arsenal&quot;'>
+                  <value>&quot;Arsenal&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;not 2009-2018&quot;'>
+                  <value>&quot;Aston Villa&quot;</value>
+                  <value>&quot;Birmingham&quot;</value>
+                  <value>&quot;Blackburn&quot;</value>
+                  <value>&quot;Blackpool&quot;</value>
+                  <value>&quot;Bolton&quot;</value>
+                  <value>&quot;Bournemouth&quot;</value>
+                  <value>&quot;Brighton&quot;</value>
+                  <value>&quot;Burnley&quot;</value>
+                  <value>&quot;Cardiff&quot;</value>
+                  <value>&quot;Crystal Palace&quot;</value>
+                  <value>&quot;Fulham&quot;</value>
+                  <value>&quot;Huddersfield&quot;</value>
+                  <value>&quot;Hull&quot;</value>
+                  <value>&quot;Leicester&quot;</value>
+                  <value>&quot;Middlesbrough&quot;</value>
+                  <value>&quot;Newcastle&quot;</value>
+                  <value>&quot;Norwich&quot;</value>
+                  <value>&quot;Portsmouth&quot;</value>
+                  <value>&quot;QPR&quot;</value>
+                  <value>&quot;Reading&quot;</value>
+                  <value>&quot;Southampton&quot;</value>
+                  <value>&quot;Sunderland&quot;</value>
+                  <value>&quot;Swansea&quot;</value>
+                  <value>&quot;Watford&quot;</value>
+                  <value>&quot;West Brom&quot;</value>
+                  <value>&quot;Wigan&quot;</value>
+                  <value>&quot;Wolves&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1872934518847488004]' derivation='User' name='[usr:Calculation_1872934518847488004:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[Action (Home/Away,YEAR(Match Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_454139F3E6654B0DA47E0AE36802E551]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Home/Away]' />
+              <groupfilter function='level-members' level='[yr:Match Date:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[Team Groups Only all years]' member='&quot;Arsenal&quot;' />
+              <groupfilter function='member' level='[Team Groups Only all years]' member='&quot;Other&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]'>
+            <groupfilter function='level-members' level='[none:Home/Away:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[Action (Home/Away,YEAR(Match Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[usr:Calculation_1872934518847488004:qk]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]</cols>
+      </table>
+      <simple-id uuid='{BB026E67-72E3-4C4A-9FD1-75AB9DA43A45}' />
+    </worksheet>
+    <worksheet name='win % over time'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Arsenal</run>
+            <run> is more likely to Win at </run>
+            <run bold='true' fontcolor='#d06264'>Home</run>
+            <run> than when </run>
+            <run bold='true' fontcolor='#4e79a7'>Away</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column caption='Wins' datatype='integer' name='[Calculation_1872934518847193089]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Win&apos; then 1 else 0 END' />
+            </column>
+            <column caption='Draws' datatype='integer' name='[Calculation_1872934518847291394]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Draw&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Losses' datatype='integer' name='[Calculation_1872934518847389699]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Loss&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='win %' datatype='real' name='[Calculation_1872934518847488004]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1872934518847193089])/(SUM([Calculation_1872934518847193089])+SUM([Calculation_1872934518847291394])+SUM([Calculation_1872934518847389699]))' />
+            </column>
+            <column datatype='string' name='[Game Result]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1872934518847488004]' derivation='User' name='[usr:Calculation_1872934518847488004:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Home/Away:nk]' member='&quot;Away&quot;' />
+              <groupfilter function='member' level='[none:Home/Away:nk]' member='&quot;Home&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Arsenal&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[usr:Calculation_1872934518847488004:qk]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='false' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-periods='Year-Trunc' range-size='5' range-type='next' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{C0E6242C-5525-4E46-A2D7-EB9F9C156BD8}' />
+    </worksheet>
+    <worksheet name='win % over time (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Arsenal</run>
+            <run> is more likely to Win at </run>
+            <run bold='true' fontcolor='#d06264'>Home</run>
+            <run> than when </run>
+            <run bold='true' fontcolor='#4e79a7'>Away</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column caption='Wins' datatype='integer' name='[Calculation_1872934518847193089]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Win&apos; then 1 else 0 END' />
+            </column>
+            <column caption='Draws' datatype='integer' name='[Calculation_1872934518847291394]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Draw&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Losses' datatype='integer' name='[Calculation_1872934518847389699]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Game Result] == &apos;Loss&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='win %' datatype='real' name='[Calculation_1872934518847488004]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1872934518847193089])/(SUM([Calculation_1872934518847193089])+SUM([Calculation_1872934518847291394])+SUM([Calculation_1872934518847389699]))' />
+            </column>
+            <column datatype='string' name='[Game Result]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1872934518847488004]' derivation='User' name='[usr:Calculation_1872934518847488004:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Home/Away:nk]' member='&quot;Away&quot;' />
+              <groupfilter function='member' level='[none:Home/Away:nk]' member='&quot;Home&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Arsenal&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Team:nk]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[usr:Calculation_1872934518847488004:qk]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='false' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-periods='Year-Trunc' range-size='5' range-type='next' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{F42A406C-D9D5-4966-8234-3E1D903837E5}' />
+    </worksheet>
+    <worksheet name='yellow cards'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+            <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Match Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Team Groups Only all years]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Team]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='true' value='&quot;Arsenal&quot;'>
+                  <value>&quot;Arsenal&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;not 2009-2018&quot;'>
+                  <value>&quot;Aston Villa&quot;</value>
+                  <value>&quot;Birmingham&quot;</value>
+                  <value>&quot;Blackburn&quot;</value>
+                  <value>&quot;Blackpool&quot;</value>
+                  <value>&quot;Bolton&quot;</value>
+                  <value>&quot;Bournemouth&quot;</value>
+                  <value>&quot;Brighton&quot;</value>
+                  <value>&quot;Burnley&quot;</value>
+                  <value>&quot;Cardiff&quot;</value>
+                  <value>&quot;Crystal Palace&quot;</value>
+                  <value>&quot;Fulham&quot;</value>
+                  <value>&quot;Huddersfield&quot;</value>
+                  <value>&quot;Hull&quot;</value>
+                  <value>&quot;Leicester&quot;</value>
+                  <value>&quot;Middlesbrough&quot;</value>
+                  <value>&quot;Newcastle&quot;</value>
+                  <value>&quot;Norwich&quot;</value>
+                  <value>&quot;Portsmouth&quot;</value>
+                  <value>&quot;QPR&quot;</value>
+                  <value>&quot;Reading&quot;</value>
+                  <value>&quot;Southampton&quot;</value>
+                  <value>&quot;Sunderland&quot;</value>
+                  <value>&quot;Swansea&quot;</value>
+                  <value>&quot;Watford&quot;</value>
+                  <value>&quot;West Brom&quot;</value>
+                  <value>&quot;Wigan&quot;</value>
+                  <value>&quot;Wolves&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Yellow Cards]' role='measure' type='quantitative' />
+            <column-instance column='[Yellow Cards]' derivation='Avg' name='[avg:Yellow Cards:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Yellow Cards]' derivation='Avg' forecast-column-base='[avg:Yellow Cards:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Yellow Cards:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Match Date]' derivation='Year' name='[yr:Match Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]' context='true'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[Team Groups Only all years]' member='&quot;Arsenal&quot;' />
+              <groupfilter function='member' level='[Team Groups Only all years]' member='&quot;Other&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Home/Away:nk]' member='&quot;Away&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]</column>
+            <column>[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15dioby1j04b311b39aaa0oyitz4].[Team Groups Only all years]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.15dioby1j04b311b39aaa0oyitz4].[fVal:avg:Yellow Cards:qk]</rows>
+        <cols>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-periods='Year-Trunc' range-size='5' range-type='next' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{E4121711-5FA7-4C97-8A42-9E824EAEF7A0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Arsenal Home vs. Away Performance</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='2' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Introduction' captured-sheet='' id='2' />
+                  <story-point caption='why does arsenal underperform at away games' captured-sheet='wins home vs away' id='4'>
+                    <capturedDeltas>
+                      <worksheet name='win % competition'>
+                        <filter column='[federated.15dioby1j04b311b39aaa0oyitz4].[Action (Home/Away,YEAR(Match Date))]' delta-type='removed' />
+                      </worksheet>
+                      <worksheet name='win % over time'>
+                        <annotations>
+                          <annotation class='area' delta-type='added' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+                            <formatted-text>
+                              <run>Start of forecast</run>
+                            </formatted-text>
+                            <top-left>
+                              <visual-coordinate class='axis'>
+                                <x-coord cell-offset='0.146276'>
+                                  <node-reference>
+                                    <fields>
+                                      <field>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</field>
+                                    </fields>
+                                    <multibucket>
+                                      <bucket>2019</bucket>
+                                    </multibucket>
+                                  </node-reference>
+                                </x-coord>
+                                <y-coord axis-value='0.80950495049504956'>
+                                  <node-reference>
+                                    <axis>[federated.15dioby1j04b311b39aaa0oyitz4].[fVal:usr:Calculation_1872934518847488004:qk]</axis>
+                                  </node-reference>
+                                </y-coord>
+                                <page-reference />
+                              </visual-coordinate>
+                            </top-left>
+                            <bottom-right>
+                              <visual-coordinate class='axis'>
+                                <x-coord cell-offset='0.598404'>
+                                  <node-reference>
+                                    <fields>
+                                      <field>[federated.15dioby1j04b311b39aaa0oyitz4].[yr:Match Date:ok]</field>
+                                    </fields>
+                                    <multibucket>
+                                      <bucket>2020</bucket>
+                                    </multibucket>
+                                  </node-reference>
+                                </x-coord>
+                                <y-coord axis-value='0.17372937293729374'>
+                                  <node-reference>
+                                    <axis>[federated.15dioby1j04b311b39aaa0oyitz4].[fVal:usr:Calculation_1872934518847488004:qk]</axis>
+                                  </node-reference>
+                                </y-coord>
+                                <page-reference />
+                              </visual-coordinate>
+                            </bottom-right>
+                            <text x='0.5' y='0.5' />
+                          </annotation>
+                        </annotations>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='fouls correlation' captured-sheet='fouls scatter plot' id='6' />
+                  <story-point caption='avg red cards' captured-sheet='avg red cards' id='9' />
+                  <story-point caption='shots allowed' captured-sheet='shots against' id='7' />
+                  <story-point caption='Defensive goals conceded' captured-sheet='defensive effectivenes' id='1' />
+                  <story-point caption='Conclusion' captured-sheet='' id='5' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' h='19917' hidden='true' id='6' story-point-id='5' type-v2='text' w='33268' x='45866' y='46162'>
+          <formatted-text>
+            <run>focus on preventing fouls and de-escalation strategies in physical games
+
+focus on increasing defensive effectiveness</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='28631' id='7' story-point-id='2' type-v2='text' w='36909' x='25886' y='36929'>
+          <formatted-text>
+            <run>areas for arsenal to improve to consistently be the best team in the english premier league</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{5B4F21C2-9395-43D5-A4CA-923E790CBF75}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='defensive effectivenes'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='98000' id='10' name='avg goals against' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='18' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='10' is-fixed='true' name='avg goals against' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7C6D955C-47B4-4ACD-B488-A6786354532B}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='penalty dash'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+      </datasources>
+      <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+        <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+        <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='17' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='15' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='62250' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='36750'>
+                <zone h='62250' id='5' type-v2='layout-basic' w='98400' x='800' y='36750'>
+                  <zone h='33589' id='11' name='fouls committed' w='98400' x='800' y='65411'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='28661' id='3' name='red cards' w='98400' x='800' y='36750'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone forceUpdate='true' h='25750' id='12' type-v2='text' w='98400' x='800' y='1000'>
+                <formatted-text>
+                  <run>We are predicted to commit more red cards than the competition so we need to work on prevention strategies and committing smart fouls</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10000' id='8' mode='dropdown' name='red cards' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type-v2='filter' w='98400' x='800' y='26750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='20' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='25750' id='12' type-v2='text' w='98400' x='800' y='1000'>
+                  <formatted-text>
+                    <run>We are predicted to commit more red cards than the competition so we need to work on prevention strategies and committing smart fouls</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10000' id='8' mode='dropdown' name='red cards' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type-v2='filter' w='98400' x='800' y='26750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='221' h='28661' id='3' is-fixed='true' name='red cards' w='98400' x='800' y='36750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='261' h='33589' id='11' is-fixed='true' name='fouls committed' w='98400' x='800' y='65411'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BFBE2A51-DF05-45D2-89B0-F5C88FCA09EE}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='wins home vs away'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Sheet1 (prem_league_cleaned)' name='federated.15dioby1j04b311b39aaa0oyitz4' />
+      </datasources>
+      <datasource-dependencies datasource='federated.15dioby1j04b311b39aaa0oyitz4'>
+        <column datatype='string' name='[Home/Away]' role='dimension' type='nominal' />
+        <column-instance column='[Home/Away]' derivation='None' name='[none:Home/Away:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='12' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='82400' x='800' y='1000'>
+              <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+                <zone h='49000' id='9' name='win % over time' w='82400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='10' name='win % competition' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='11' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='7625' id='13' mode='dropdown' name='win % competition' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type-v2='filter' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='16' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='7625' id='13' mode='dropdown' name='win % competition' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type-v2='filter' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='10' is-fixed='true' name='win % competition' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='win % over time' w='82400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{878AE5BA-0251-4965-B80B-0C91D47B6479}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='63'>
+    <window class='worksheet' name='win % competition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{47848600-279F-4362-94EC-D652CB046E58}' />
+    </window>
+    <window class='worksheet' name='shots against'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='5' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{4064FF71-FD67-412B-ABA5-8C3073736B55}' />
+    </window>
+    <window class='worksheet' name='avg goals against'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]' type='filter' />
+            <card pane-specification-id='5' param='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9E97CF9E-3BBB-4ABB-A8B0-703519852743}' />
+    </window>
+    <window class='worksheet' maximized='true' name='avg goals against (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]' type='filter' />
+            <card pane-specification-id='5' param='[federated.1t05nwg0c6drj616ual9e0hjxgir].[none:Home/Away:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{AE88CC16-D4E6-445F-BBD2-B023B4FE66C8}' />
+    </window>
+    <window class='worksheet' name='win % over time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{CE78E3A8-5544-4619-934C-90E47558A789}' />
+    </window>
+    <window class='worksheet' name='win % over time (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{38A07C40-92FC-4115-AB4A-3BC94595792A}' />
+    </window>
+    <window class='worksheet' name='red cards'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{C228922E-4DA6-4F86-9054-F83B81261861}' />
+    </window>
+    <window class='worksheet' name='yellow cards'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{2ADCCA6B-833F-4F0F-9637-2CE10FE6A07E}' />
+    </window>
+    <window class='worksheet' name='fouls committed'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8339FCFF-34A9-4624-A7BC-4D6ADBE4E0ED}' />
+    </window>
+    <window class='dashboard' name='defensive effectivenes'>
+      <viewpoints>
+        <viewpoint name='avg goals against'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{8E8D00A3-9BE2-4E49-B10D-3AB940A8F49D}' />
+    </window>
+    <window class='dashboard' name='penalty dash'>
+      <viewpoints>
+        <viewpoint name='fouls committed'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='red cards'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{55FBDCAD-3FBE-4F44-9A32-D52AD47E852F}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{DE7531C3-1E40-45D5-AA0A-63203385BEFC}' />
+    </window>
+    <window class='dashboard' name='wins home vs away'>
+      <viewpoints>
+        <viewpoint name='win % competition'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='win % over time'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{B4B03A1A-6733-47A8-8796-A1ECA401BFA2}' />
+    </window>
+    <window class='worksheet' name='fouls scatter plot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F56B711D-6859-4CA0-80E5-2A9587316940}' />
+    </window>
+    <window class='worksheet' name='avg red cards'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.15dioby1j04b311b39aaa0oyitz4].[none:Home/Away:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{1AD46D07-CCBF-43A5-859D-95C6EBF29AF1}' />
+    </window>
+  </windows>
+</workbook>
